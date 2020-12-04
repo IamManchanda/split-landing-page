@@ -1,18 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Split Landing Page | VanillaJS</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Template | VanillaJS</title>
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-  <link href="https://fonts.googleapis.com/css2?family=Piazzolla&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css" />
-</head>
-
-<body>
-  <script src="js/script.js"></script>
-</body>
-
+  <body>
+    <div class="container">
+      <div class="split left">
+        <h1>Women<span class="hidden-mobile">'s Clothing</span></h1>
+        <a href="#women" class="btn">Buy Now</a>
+      </div>
+      <div class="split right">
+        <h1>Men<span class="hidden-mobile">'s Clothing</span></h1>
+        <a href="#men" class="btn">Buy Now</a>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
 </html>
